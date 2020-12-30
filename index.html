@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content = "width=device-width">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--Google icons i wanted to use for my nav bar-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social icons link for footer-->
+    <link href= "style.css" rel="stylesheet" type="text/css">
+
+    <!--NAV BAR that is on the side instead of at the top-->
+  </head>
+  <body>
+    <aside>
+      <nav>
+        <img src="/Portfolio/images/pray 2.jpg" alt=" me with praying hands">
+          <a href = "#home"><i class= "material-icons md-36">home</i>
+          <p>Home</p>
+          </a>
+
+          <a href = "#about"><i class= "material-icons md-36">person</i>
+          <p>About</p>
+          </a>
+
+          <a href = "#contact"><i class= "material-icons md-36">mail</i>
+          <p>Contact</p>
+          </a>
+      </nav>
+    </aside>
+
+<!--main body of site-->
+      <main>
+          <header class="home" id="home"><br><br>
+          <h1>Adonis Shropshire</h1>
+          <h4>Software Developer</h4>
+          <img src = "/Portfolio/images/pray 2.jpg" alt="me praying 2">
+          </header>
+          
+      </main>
+
+      <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+          <span>Hello, I'm Adonis.</span> I'm a Software Developer, Music Producer/Songwriter, 
+          and profesional learner. As a new student at thinkful, I'm extremely excited 
+          about the possibility to build something with and be a part of a great team. 
+          <p>Web Dev is the cornerstone of the future and knowing that I
+          could one day re-shape the world we live in because of an idea that helps people is inspiring.
+          <p>I am also a Grammy Award winning songwriter. I worked as a music producer/songwriter for 20 
+          years and to say it was an incredible experience would be an understatement. I love Golf, Gaming
+          and spending time with my family and two dogs Gizmo and King.
+          </p>
+          <p>Let's build something together!</p>
+        </p>
+
+        <!--found this idea for a skills bar. I obviously dont have the level of knowledge depicted
+        but I thought it was a nice touch.-->
+
+        <h3>My Skills</h3>
+        <ul>
+          <li>
+        <p>Javascript</p>
+          </li>
+        <div class="container">
+          <div class= "skills js">95%</div>
+        </div>
+          <li>
+        <p>Html 5</p>
+          </li>
+        <div class="container">
+          <div class= "skills html">95%</div>
+        </div>
+        <li>
+        <p>CSS 3</p>
+        </li>
+        <div class="container">
+          <div class= "skills css">95%</div>
+        </div>
+        </ul>
+      </section>
+
+    <!--wanted to do an operable contact form. Looked it up and voila!-->
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class= "container">
+          <form action="">
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name">
+              <label for="email">Email</label>
+              <input type="text" id="name" name="email">
+              <label for="message">Message</label>
+              <textarea name="text" id="message" style="height:200px"></textarea>
+              <input type="submit" value="Send">
+          </form>
+        </div>
+      </section>
+       
+<!--footer section with socials. I used a Font Awesome link for my social logos and nested
+my actual socials to them.-->
+      <footer>
+  <section class="top-bar">
+    <div class="wrapper">    
+      <a target="_blank" href="https://github.com/adonis1101"><i class="fa fa-3x fa-github"></i></a>    
+      <a target="_blank" href="https://www.linkedin.com/in/adonis-shropshire-745a0464/"><i class="fa fa-3x fa-linkedin"></i></a>    
+      <a target="_blank" href="https://twitter.com/eyesofadon"><i class="fa fa-3x fa-twitter"></i></a>
+      </div> 
+  </section>
+
+  <section class="bottom-bar">
+    <p>&copy; 2020 | All rights reserved</p>
+  </section>
+
+        </section>
+      </footer>
+    <script src="script.js"></script> 
+  </body>
