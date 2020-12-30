@@ -1,0 +1,308 @@
+*,
+    *::before,
+    *::after{
+    box-sizing: border-box;
+    }
+
+    *:focus{
+    outline: none;
+    }
+
+    body {
+    padding: 0px;
+    margin: 0px;
+    background: #000;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+   a{
+        text-decoration:none;
+    }
+
+    img{
+        width:100%;
+    }
+
+    .home img{
+        width: 100%;
+        -webkit-filter: grayscale(100%) contrast(100%);
+        filter: grayscale(10%) contrast(100%) brightness(80%)
+        }
+
+    aside {
+      position: fixed;
+      background: #222;
+      top: 0px;
+      left: 0px;
+      width: 120px;
+      height: 100%;
+      overflow: none;
+      z-index: 1;
+      text-align: center;
+      padding: 0;
+    }
+
+    aside img{
+      filter: grayscale(70%) contrast(40%) brightness(100%);
+      margin-bottom: -3px;
+    }
+
+    .material-icons.md-36{
+      font-size: 26px;
+    }
+
+    aside a{
+      display: block;
+      padding: 15px 0;
+      color: plum;
+      transition: all 0.35s;
+      text-transform: uppercase; 
+      font-size: 0.75em;
+      letter-spacing: 2px;
+    }
+
+    aside p{
+      margin: 0;
+      padding: 0;
+    }
+
+    aside a:hover{
+      background: rgb(180, 3, 3);
+    }
+
+   /*aside nav a:nth-child(2){
+      background: #000;
+    }
+
+    aside nav a:nth-child(2):hover{
+      background: #b2b2b2;
+      color: #222;
+    }*/
+
+       main{
+       max-width: 700px;
+       background: #000;
+       margin-left: 20%;
+       padding: 12px 50px 12px 50px;
+      }
+
+        header{
+        text-align: center;
+        letter-spacing: 2px;  
+      }
+        header h1{
+        font-weight: bold;
+        font-size: 3em;
+        letter-spacing: 4px;
+      }
+
+        header h4{
+        font-weight: 300;
+        font-size: 1em;
+        letter-spacing: 4px;
+        color: plum;
+      }
+
+        .about, .contact{
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        font-weight: 300;
+        margin-left: 200px;
+        margin-right: 200px;
+        }
+
+        .about h2, .contact h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-bottom: 10px;
+        margin: 100px 0 0 0;
+        letter-spacing: 4px; 
+        }
+
+        .about p{
+          color: #b2b2b2;
+        }
+
+        .about span{
+          font-weight: 600;
+          color: red;
+        }
+
+        .about h3{
+          font-weight: 300;
+          margin: 50px 0;
+        }
+
+        .container{
+          width: 100%;
+          background-color: plum;
+        }
+
+        .skills{
+          text-align: right;
+          padding-right: 20px;
+          line-height: 30px;
+          color: white;
+          background-color: #424242;
+        }
+
+
+
+        .js, .html, .css{
+          width: 95%;
+        }
+
+        label{
+          color: #b2b2b2;
+        }
+
+        form input[type="text"],
+        select,textarea{
+          width: 100%;
+          padding:12px;
+          border: none;
+          border: 1px solid plum;
+          background: transparent;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+          color:white;
+        }
+
+        form input[type="text"]:focus,
+        textarea:focus{
+          outline: none;
+          border: 1px solid #f01010; 
+        }
+
+        input[type="submit"]{
+          background-color: transparent;
+          color: #b2b2b2;
+          text-transform: uppercase;
+          padding: 12px 20px;
+          border: 1px solid #222;
+          cursor: pointer;
+          transition: all 0.35s;
+        }
+
+        input[type="submit"]{
+          background-color: transparent;
+          color: #b2b2b2;
+          text-transform: uppercase;
+          padding: 12px 20px;
+          border: 1px solid #222;
+          cursor: pointer;
+          transition: all 0.35s;
+          }
+
+          input[type="submit"]:hover{
+            background-color: #b2b2b2;
+            color: #222;
+          }
+
+          .contact .container{
+            margin-top: 20px;
+            margin-bottom: 100px;
+            background: transparent;
+            padding: 20px 0; 
+          }
+          
+          .wrapper i {
+          padding: 10px;
+          text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+          transition: all ease-in-out 30ms;
+          }
+
+          .wrapper a:nth-child(1) {
+          color: purple;
+          font-size: 0.75em;
+          }
+
+          .wrapper a:nth-child(2) {
+          color: #4867AA;
+          font-size: 0.75em;
+          }
+
+          .wrapper a:nth-child(3) {
+          color: #1DA1F2;
+          font-size: 0.75em;
+          }
+
+          .wrapper i:hover {
+          margin-top: -2px;
+          text-shadow: 0px 5px 5px plum;
+          }
+
+          .footer{
+            border-top: 1px solid #222;
+          }
+
+          .top-bar{
+            padding: 20px 0;
+            text-align: center;            
+          }
+
+          .top-bar a{
+            margin: 10px;
+            font-size: 2em;
+            color: #b2b2b2;
+            transition: all 0.35s;
+            display: inline-block;
+          }
+
+          .top-bar a:hover{
+            transform: scale(1.1);
+            color: #f01010;
+          }
+
+          .bottom-bar{
+            background: #000;
+            font-size: 0.75em;
+            text-align: center;
+          }
+          
+
+          main {
+            width: 100%;
+            margin: 0 auto;
+            padding: 12px 25px;
+          }
+
+          header{
+            margin-top: 80px;
+          }
+
+          header h1{ font-size: 3em;
+            line-height: 1.4em;
+          }
+
+          header h4{
+            font-size: 1em;
+            letter-spacing: 2px;
+          }
+
+           mobile-nav{
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1;
+          }
+            mobile-nav a{
+            width: 100%;
+            color: #b2b2b2;
+            text-transform: uppercase;
+            font-size: 0.875em;
+            letter-spacing: 2px;
+            text-align: center;
+            padding: 10px 10px;
+            transition: all 0.35s;
+          }
+
+         mobile-nav a:hover{
+            background: #b2b2b2;
+            color: #222;
+          }
